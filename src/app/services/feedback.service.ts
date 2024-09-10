@@ -9,31 +9,31 @@ export class FeedbackService {
     {
       id: '1',
       emojiName: 'Angry',
-      emojiIcon: 'src/assets/images/emojis/image_1.svg',
+      emojiIcon: '../assets/images/emojis/image_1.svg',
       rating: 1
     },
     {
       id: '2',
       emojiName: 'Sad',
-      emojiIcon: 'src/assets/images/emojis/image_2.svg',
+      emojiIcon: '../assets/images/emojis/image_2.svg',
       rating: 2
     },
     {
       id: '3',
       emojiName: 'Neutral',
-      emojiIcon: 'src/assets/images/emojis/image_3.svg',
+      emojiIcon: '../assets/images/emojis/image_3.svg',
       rating: 3
     },
     {
       id: '4',
       emojiName: 'Happy',
-      emojiIcon: 'src/assets/images/emojis/image_4.svg',
+      emojiIcon: '../assets/images/emojis/image_4.svg',
       rating: 4
     },
     {
       id: '5',
       emojiName: 'Surprised',
-      emojiIcon: 'src/assets/images/emojis/image_5.svg',
+      emojiIcon: '../assets/images/emojis/image_5.svg',
       rating: 5
     }
   ]
