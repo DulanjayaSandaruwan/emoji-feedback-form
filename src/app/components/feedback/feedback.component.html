@@ -12,15 +12,83 @@
 
     <div class="feedback-form-container">
         <form [formGroup]="feedbackForm">
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col">
                     <p class="question">01. How would you rate your overall experience with the claim process?</p>
                     <div class="emoji-rating">
                         <ng-container *ngFor="let emoji of emojiRatings">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="question1" [id]="'emoji' + emoji.id"
+                                <input class="form-check-input" type="radio" name="question1" [id]="'question1' + emoji.id"
                                     [value]="emoji.rating" formControlName="question1">
-                                <label class="form-check-label" [for]="'emoji' + emoji.id">
+                                <label class="form-check-label" [for]="'question1' + emoji.id">
+                                    <img [src]="emoji.emojiIcon" [alt]="emoji.emojiName">
+                                </label>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <p class="question">01. How would you rate your overall experience with the claim process?</p>
+                    <div class="emoji-rating">
+                        <ng-container *ngFor="let emoji of emojiRatings">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question2" [id]="'question2' + emoji.id"
+                                    [value]="emoji.rating" formControlName="question2">
+                                <label class="form-check-label" [for]="'question2' + emoji.id">
+                                    <img [src]="emoji.emojiIcon" [alt]="emoji.emojiName">
+                                </label>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <p class="question">01. How would you rate your overall experience with the claim process?</p>
+                    <div class="emoji-rating">
+                        <ng-container *ngFor="let emoji of emojiRatings">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question3" [id]="'question3' + emoji.id"
+                                    [value]="emoji.rating" formControlName="question3">
+                                <label class="form-check-label" [for]="'question3' + emoji.id">
+                                    <img [src]="emoji.emojiIcon" [alt]="emoji.emojiName">
+                                </label>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <p class="question">01. How would you rate your overall experience with the claim process?</p>
+                    <div class="emoji-rating">
+                        <ng-container *ngFor="let emoji of emojiRatings">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question4" [id]="'question4' + emoji.id"
+                                    [value]="emoji.rating" formControlName="question4">
+                                <label class="form-check-label" [for]="'question4' + emoji.id">
+                                    <img [src]="emoji.emojiIcon" [alt]="emoji.emojiName">
+                                </label>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <p class="question">01. How would you rate your overall experience with the claim process?</p>
+                    <div class="emoji-rating">
+                        <ng-container *ngFor="let emoji of emojiRatings">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question5" [id]="'question5' + emoji.id"
+                                    [value]="emoji.rating" formControlName="question5">
+                                <label class="form-check-label" [for]="'question5' + emoji.id">
                                     <img [src]="emoji.emojiIcon" [alt]="emoji.emojiName">
                                 </label>
                             </div>

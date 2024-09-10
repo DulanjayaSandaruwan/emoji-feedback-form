@@ -23,7 +23,11 @@ export class FeedbackComponent implements OnInit {
 
   populateFeedbackForm(): void {
     this.feedbackForm = this.fb.group({
-      'question1': ['', Validators.required]
+      'question1': ['', Validators.required],
+      'question2': ['', Validators.required],
+      'question3': ['', Validators.required],
+      'question4': ['', Validators.required],
+      'question5': ['', Validators.required]
     });
   }
 
